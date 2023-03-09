@@ -1,0 +1,4 @@
+#!/bin/bash
+filepath="/tmp/iamafile"
+filetype=$(file -b "$filepath")
+echo "The type of file $filepath is $filetype"
